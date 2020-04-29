@@ -20,7 +20,7 @@ echo quote site namefmt 0 >> %TEMPFILE%
 echo quote crtl %LIB%>> %TEMPFILE%
 echo cd %LIB%>> %TEMPFILE%
 echo bin>> %TEMPFILE%
-echo quote rcmd CRTSAVF FILE(%LIB%/pixobjsavf) >> %TEMPFILE%
+echo quote rcmd CRTSAVF FILE(%LIB%/%SAVF%) >> %TEMPFILE%
 echo put %SAVF% %SAVF% >> %TEMPFILE%
 echo quit >> %TEMPFILE%
 ftp -s:%TEMPFILE% %HOST%
