@@ -12,6 +12,8 @@ set SAVF=%5
 if "%HOST%"=="" goto usage
 if "%USER%"=="" goto usage
 if "%PASS%"=="" goto usage
+if "%LIB%"=="" goto usage
+if "%SAVF%"=="" goto usage
 echo %USER%> %TEMPFILE%
 echo %PASS%>> %TEMPFILE%
 echo quote site namefmt 1 >> %TEMPFILE%
@@ -26,7 +28,7 @@ del %TEMPFILE%
 goto end
 :	
 echo.
-echo USAGE: upload HOST USERID PASSWORD
+echo USAGE: upload HOST USERID PASSWORD LIBRARY SAVF
 echo.
 echo      HOST = FTP host you want to upload to (as400.example.com)
 echo    USERID = UserID to log in with
