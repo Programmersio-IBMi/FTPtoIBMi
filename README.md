@@ -11,7 +11,7 @@ The repository has two bat files upload.bat for upload process and download.bat
 * For upload.bat 
    - In shell window navigate to your files path. 
    - cd path/to/file 
-   - ** You need to have the upload.bat file in your directory as said above 
+   - **You need to have the upload.bat file in your directory as said above**
    - Run the command ` .\upload.bat ibmi_ip_address myuser mypassword saveFileName.savf `
      - .\upload.bat opens the file in shell for execution 
      - rest all are parameters passed to this file, separated by single spaces. 
@@ -20,7 +20,7 @@ The repository has two bat files upload.bat for upload process and download.bat
 * For download.bat 
    - In shell window navigate to your files path. 
    - cd path/to/file 
-   - ** You need to have the download.bat file in your directory as said above. 
+   - **You need to have the download.bat file in your directory as said above.** 
    - Run the command ` .\download.bat ibmi_ip_address myuser mypassword library saveFileName.savf `
      - .\download.bat opens the file in shell for execution 
      - rest all are parameters passed to this file, separated by single spaces. 
