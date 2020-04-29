@@ -5,9 +5,9 @@ The repository has two bat files upload.bat for upload process and download.bat
 
 ### Instruction to use 
 
-* git clone https://github.com/Programmersio-IBMi/FTPtoIBMi.git or download zip and expand
+* git clone https://github.com/Programmersio-IBMi/FTPtoIBMi.git or download zip and expand all.
 * Copy upload.bat/download.bat to the directory where you have your files or want to keep. 
-* Open powershell or cmd prompt in windows with 
+* Open powershell or cmd prompt in windows with run as administrator. 
 * For upload.bat 
    - In shell window navigate to your files path. 
    - cd path/to/file 
