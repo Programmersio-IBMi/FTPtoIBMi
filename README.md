@@ -1,4 +1,4 @@
-# FTPtoIBMi
+# FTPtoIBMi 📁
 batch ftp to ibmi from windows 
 
 The repository has two bat files upload.bat :arrow_up: for upload process and download.bat :arrow_down:
