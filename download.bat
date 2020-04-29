@@ -1,7 +1,7 @@
 @echo off
 rem **************************************************************
 rem  on command prompt navigate to your save file location
-rem  .\upload.bat ibmi.example.com bob mypassword library saveFileName.savf
+rem  .\download.bat ibmi.example.com bob mypassword library saveFileName.savf
 rem **************************************************************
 set TEMPFILE=download.fts
 set HOST=%1
