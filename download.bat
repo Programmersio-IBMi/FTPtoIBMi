@@ -26,7 +26,7 @@ echo quit >> %TEMPFILE%
 ftp -s:%TEMPFILE% %HOST%
 del %TEMPFILE%
 goto end
-:	
+:usage	
 echo.
 echo USAGE: upload HOST USERID PASSWORD LIBRARY SAVF
 echo.
